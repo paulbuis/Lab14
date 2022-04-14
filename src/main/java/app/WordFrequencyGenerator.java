@@ -32,6 +32,10 @@ public final class WordFrequencyGenerator
             new File("a.txt")
     );
 
+    public WordFrequencyGenerator() {
+        super(1000);
+    }
+
 
     @Override
     public void produce(Consumer<WordFrequency> consumer) {
