@@ -13,6 +13,7 @@ public class ScannerGenerator extends Generator<String> {
     private final Scanner scanner;
 
     public ScannerGenerator(Scanner scanner) {
+        super(1000);
         this.scanner = scanner;
     }
 
